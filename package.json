@@ -8,6 +8,7 @@
     "build:scss": "node-sass src -o lib",
     "build:webpack": "webpack --config webpack.config.js",
     "copy:scss": "cd src && find -name '*.scss' -exec cp --parents -prv {} ../lib \\;",
+    "copy:css": "cd src && find -name '*.css' -exec cp --parents -prv {} ../lib \\;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

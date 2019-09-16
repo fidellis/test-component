@@ -8,7 +8,7 @@ import Header from './Header';
 import Cell from './Cell';
 import { getColumns, filter, sort, renderCell } from './utils';
 
-import './data-table.scss';
+import './data-table.css';
 
 function prepareColumns({ columns, hasGroup, parent }) {
   const nextColums = {};
